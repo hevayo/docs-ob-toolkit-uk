@@ -1,0 +1,5 @@
+# The {edition.*} variables of Open Banking UK Toolkit: one block for every Self-hosted
+# version ({version} is filled in). No page uses them yet.
+self-hosted:
+  displayName: Open Banking UK Toolkit {version}
+  productName: WSO2 Open Banking UK Toolkit

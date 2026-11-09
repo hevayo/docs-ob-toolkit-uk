@@ -1,0 +1,22 @@
+# Doc space manifest of Open Banking UK Toolkit (schemas/docspace.schema.json in the Platform),
+# from the approved model (.scratch/open-banking-model/map.md).
+schemaVersion: 1
+slug: open-banking-uk-toolkit
+# Model decision 3: named as its live site names it (WSO2 Open Banking UK Toolkit Documentation), without "WSO2".
+displayName: Open Banking UK Toolkit
+# Model decision 6: no products-menu entry; listed in the Solutions section's menu.
+home: solutions
+# Model decision 11: a placeholder team, still to be created.
+owners:
+  team: open-banking-docs
+repo: hevayo/docs-ob-toolkit-uk
+editLinks: true
+issues:
+  repo: wso2/docs-ob-toolkit-uk
+# Model decisions 4 and 5: one Self-hosted Edition, on the main line
+# (docs-v2/main behind the Site branch's branchPrefix docs-v2/).
+model: versions-only
+editions:
+  - id: 1.0.0
+    branch: main
+    status: live
